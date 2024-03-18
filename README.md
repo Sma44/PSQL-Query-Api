@@ -9,7 +9,7 @@ This program uses `Apache Maven` dependencies to run. Be sure to check for insta
 ## Usage
 This program uses **IntelliJ IDEA**'s Maven project builder. Be sure to have the relevant sources downloaded.
 
-To run the program, open the folder named `a3`.
+To run the program, open the folder containing this project in **IntelliJ IDEA**, or the **Maven** development environment of your chosing.
 
 Navigate to the Main.java file, located at the path: `../src/test/java/`
 
