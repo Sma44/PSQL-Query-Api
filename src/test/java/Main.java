@@ -38,7 +38,7 @@ public class Main {
                         flag = false;
                         break;
                     case 1:
-                        getAllStu();
+                        getAllStudents();
                         break;
                     case 2:
                         System.out.println("Enter first name, last name, email, and date:");
@@ -52,7 +52,7 @@ public class Main {
                         System.out.println("Enter student id, and email:");
                         id = in.nextLine();
                         email = in.nextLine();
-                        updateEmail(id,email);
+                        updateStudentEmail(id,email);
 
                         break;
                     case 4:
@@ -95,7 +95,7 @@ public class Main {
         return ret;
     }
 
-    public static void getAllStu(){
+    public static void getAllStudents(){
         try{
             Class.forName("org.postgresql.Driver");
             connection = DriverManager.getConnection(url, user, password);
@@ -147,7 +147,7 @@ public class Main {
         }
     }
 
-    public static void updateEmail(String id, String email){
+    public static void updateStudentEmail(String id, String email){
         try{
             Class.forName("org.postgresql.Driver");
             connection = DriverManager.getConnection(url, user, password);
