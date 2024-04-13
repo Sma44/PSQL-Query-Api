@@ -11,6 +11,8 @@ This program uses **IntelliJ IDEA**'s Maven project builder. Be sure to have the
 
 To run the program, open the folder containing this project in **IntelliJ IDEA**, or the **Maven** development environment of your choosing.
 
+***
+
 Navigate to the Main.java file, located at the path: `../src/test/java/`
 
 Click on the `run` option, or press <kbd>Shift + F10</kbd>.
